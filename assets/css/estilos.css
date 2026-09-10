@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #15182a;
+  --secondary-color: #243499;
+  --light-color: #43c2fe;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.badge-nueva {
+  background-color: #a64b36;
+}
+.badge-repaso {
+  background-color: #46615a;
+}
+
+.card{
+    max-width: 26rem;
+    margin-inline: 5px;
+    margin-bottom: 10px;
+}
