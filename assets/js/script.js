@@ -1,19 +1,18 @@
 function crearCardHTML(song) {
-  const imgSrc = song.image || "assets/img/placeholder.jpg";
+  const imgSrc = song.image || "assets/img/placeholder.jpeg";
 
   return `
   <div class="card col-lg-4 col-md-6 col-sm-12">
   <a href="${song.page}" class="text-decoration-none text-reset">
         <div class="row">
-            <div class="col-sm-2 col-md-3 col-lg-4">
+            <div class="col-4">
                 <img src="${imgSrc}" class="img-fluid rounded-start" alt="${song.title}">
             </div>
-            <div class="col-sm-10 col-md-9 col-lg-8">
+            <div class="col-8">
                 <div class="card-body">
-                    <h5 class="card-title">${song.title.toUpperCase()}</h5>
-                    <p class="card-text"><small class="text-body-secondary">${song.artist}</small></p>
+                    <h5 class="card-title mb-0">${song.title}</h5>
+                    <p class="card-text mb-1"><small class="text-body-secondary">${song.artist}</small></p>
                     <p class="card-text">Tonalidad: ${song.key}</p>
-                    <span class="badge rounded-pill text-bg-light">${song.status}</span>
                 </div>
             </div>
         </div>

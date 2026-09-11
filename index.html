@@ -23,33 +23,29 @@
 
 <body>
     <header>
-        <nav class="container navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cancionero</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+        <nav class="container navbar justify-content-center">
 
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-cancionero.png" alt="">
+            </a>
 
-                    <input type="text" id="buscador" class="form-control mb-4" placeholder="Buscar canción...">
-
-
-                </div>
-            </div>
         </nav>
     </header>
     <main>
-        <section id="hero" class="container text-center">
-            <h1>Bienvenida, criatura del Señor</h1>
+        <section id="hero" class="container text-center mb-3">
+            <div class="hero-bg">
+                <h1>Bienvenida, <br>criatura del Señor</h1>
+            </div>
+        </section>
+        <section class="container">
+            <input type="text" id="buscador" class="form-control mb-4" placeholder="🔍   Buscar canción...">
         </section>
 
         <section id="songs">
             <div class="container">
                 <h2>Lista de canciones:</h2>
 
-                <div class="row justify-content-center">
+                <div class="row justify-content-center mx-1">
                     <!-- Código dinámico -->
                 </div>
             </div>
