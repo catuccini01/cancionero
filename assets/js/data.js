@@ -44,7 +44,7 @@ const songs = [
     {
         title:"Mírenlo",
         artist: "abiymauri ft. Marcos Bruneto",
-        key: "D",
+        key: "F",
         image: null,
         page: "pages/mirenlo.html"
     },
