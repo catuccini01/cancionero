@@ -48,4 +48,11 @@ const songs = [
         image: null,
         page: "pages/mirenlo.html"
     },
+     {
+        title:"Santo por siempre",
+        artist: "La IBI",
+        key: "G",
+        image: null,
+        page: "pages/santo-por-siempre.html"
+    },
 ]
